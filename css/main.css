@@ -34,6 +34,7 @@ div.header_content{
     display: flex;
     flex-direction: column;
     background-color: #FFE9CC;
+    overflow: auto;
    
 }
 
