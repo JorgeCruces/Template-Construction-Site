@@ -34,7 +34,7 @@ div.header_content{
     display: flex;
     flex-direction: column;
     background-color: #FFE9CC;
-    overflow: visible;
+   
    
 }
 
@@ -112,11 +112,12 @@ div.logo_nav a{
 ***************************************/
 
 .presentation{
-    height: 85vh;
+   
     background-image: url(../img/minJPG/Header\ Bg-min.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
+   
     
 
 }
