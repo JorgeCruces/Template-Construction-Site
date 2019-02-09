@@ -1,0 +1,188 @@
+/* Principals font*/
+@font-face {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI'), url('segoeui.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Simplex';
+    src: url(../fonts/Simplex.ttf);
+    font-style: normal;
+}
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*************************************
+            HEADER AND NAVBAR
+***************************************/
+
+div.header_content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFE9CC;
+   
+}
+
+div.navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFD9A7;
+   
+    height: 20vh;
+    overflow: hidden;
+}
+div.logo_nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+
+}
+div.logo_nav a{
+    margin: 20px;
+    flex: 0 0 50%;
+}
+.navbar_btn {
+    
+    cursor: pointer;
+    flex: 0 1 50%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar_btn span{
+    
+    margin: 8px;
+    width: 12vw;
+    height: 3px;
+    background-color: #707070;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/**Navbar */
+.navbar_ul{
+
+    list-style: none;
+    display:    none;
+    flex-direction: column;
+    align-items: center
+  
+    
+}
+
+.navbar_ul li {
+    
+    margin: 17px;
+    border-bottom: 2px solid #707070;
+    padding: 20px;
+}
+
+.navbar_ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*************************************
+            HERO AND HERO CONTENT
+***************************************/
+
+.presentation{
+    height: 80vh;
+    background-image: url(/img/minJPG/Header\ Bg-min.jpg);
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.presentation h1{
+    flex: 0 0 10%;
+    margin: 20px;
+    text-align: center;
+    font-family: Tw Cen MT;
+    background-color: rgba(255, 255, 255, .4);
+    font-size: 1.8em;
+    color: #4B2402;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.hello_world{
+    flex: 1 0 90%;
+    margin: 0px 20px;
+
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 0px 30px 0px 0px;
+    display: flex;
+    flex-direction: column
+
+}
+
+.hello_world h2{
+    text-align: center;
+    margin: 15px;
+    line-height: 30px;
+    padding: 15px;
+    border-bottom: 1px solid #707070;
+    font-size: 2em;
+}
+
+.hello_world p{
+    text-align: left;
+    margin: 15px;
+    font-size: 1.6em;
+    font-weight: lighter;
+   
+}
+
+.button{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Simplex', Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    font-weight: bold;
+    font-size: 2em;
+    border: 3px solid #707070;
+    text-decoration: none;
+    background-color: #fff;
+    text-decoration: underline;
+
+
+}
+
+.button img{
+    width: 60px;
+}
+
+/*************************************
+  MAIN SECTION AND PRINCIPAL CONTENT
+***************************************/
+
