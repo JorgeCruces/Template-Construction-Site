@@ -11,6 +11,11 @@
     font-style: normal;
 }
 
+@font-face{
+    font-family: 'KozMin';
+    src: url(../fonts/KozMinPr6N-Heavy.otf);
+    font-style: normal;
+}
 
 
 
@@ -22,6 +27,11 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFE9CC;
+}
+
+p span{
+    font-weight: bold;
 }
 
 /*************************************
@@ -188,4 +198,69 @@ div.logo_nav a{
 /*************************************
   MAIN SECTION AND PRINCIPAL CONTENT
 ***************************************/
+
+.inicio_content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inicio_main{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.left_text{
+    margin: 20px;
+    border-left: 4px solid #BA8527;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.inicio_main p{
+    margin: 15px;
+    margin-top: 0;
+    
+    font-size: 1.6em;
+ 
+    
+}
+
+.inicio_main img{
+    margin: 5px;
+    max-width: 100%;
+}
+
+/*Ul list*/
+
+.dedicamos{
+    display: flex;
+    flex-direction: column;
+
+}
+.dedicamos h2{
+    text-align: center;
+    font-family: 'KozMin',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+ul.dedicar{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+ul.dedicar li{
+    margin: 5px;
+    text-align: center;
+    border: 2px solid #707070;
+    padding: 20px;
+    background-color: #fff;
+    font-weight: bold;
+}
 
