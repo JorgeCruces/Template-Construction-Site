@@ -35,6 +35,7 @@ div.header_content{
     flex-direction: column;
     background-color: #FFE9CC;
     overflow: auto;
+    
    
 }
 
@@ -60,7 +61,7 @@ div.logo_nav a{
 }
 .navbar_btn {
     
-    cursor: pointer;
+    
     flex: 0 1 50%;
     align-self: center;
     display: flex;
@@ -114,7 +115,6 @@ div.logo_nav a{
     height: 80vh;
     background-image: url(../img/minJPG/Header\ Bg-min.jpg);
     background-size: cover;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
 
