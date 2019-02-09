@@ -30,12 +30,11 @@ body{
 
 div.header_content{
     width: 100%;
-    height: 100vh;
+   
     display: flex;
     flex-direction: column;
     background-color: #FFE9CC;
-    overflow: auto;
-    
+    overflow: visible;
    
 }
 
@@ -44,8 +43,8 @@ div.navbar{
     flex-direction: column;
     background-color: #FFD9A7;
    
-    height: 20vh;
-    overflow: hidden;
+
+    overflow: visible;
 }
 div.logo_nav{
     
@@ -53,6 +52,7 @@ div.logo_nav{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: nowrap;
+    margin-top: 15px;
 
 }
 div.logo_nav a{
@@ -112,11 +112,12 @@ div.logo_nav a{
 ***************************************/
 
 .presentation{
-    height: 80vh;
+    height: 85vh;
     background-image: url(../img/minJPG/Header\ Bg-min.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
+    
 
 }
 
