@@ -98,7 +98,9 @@ div.logo_nav a{
     list-style: none;
     display:    none;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    transition: all 5s;
+   
   
     
 }
@@ -195,72 +197,37 @@ div.logo_nav a{
     width: 60px;
 }
 
-/*************************************
-  MAIN SECTION AND PRINCIPAL CONTENT
-***************************************/
 
-.inicio_content{
+
+
+/****************************
+
+         Helper CSS
+
+
+
+******************************/
+
+.invisible{
     display: flex;
-    flex-direction: column;
+    animation-name: dropDown;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
     
 }
 
-.inicio_main{
-    display: flex;
-    flex-direction: column;
+@keyframes dropDown{
+    0%{
+        display: none;
+        visibility: hidden;
+        opacity: .3;
+        transform: translateY(-500px) rotateX(30deg) rotateY(180deg);
+       
+    }
+    50%{
+        display: none;
+        
+    }
     
-
-}
-
-.left_text{
-    margin: 20px;
-    border-left: 4px solid #BA8527;
-    text-transform: uppercase;
-    padding-left: 10px;
-    font-size: 2em;
-    font-weight: bold;
-
-}
-
-.inicio_main p{
-    margin: 15px;
-    margin-top: 0;
-    
-    font-size: 1.6em;
- 
-    
-}
-
-.inicio_main img{
-    margin: 5px;
-    max-width: 100%;
-}
-
-/*Ul list*/
-
-.dedicamos{
-    display: flex;
-    flex-direction: column;
-
-}
-.dedicamos h2{
-    text-align: center;
-    font-family: 'KozMin',Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-}
-
-ul.dedicar{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-}
-
-ul.dedicar li{
-    margin: 5px;
-    text-align: center;
-    border: 2px solid #707070;
-    padding: 20px;
-    background-color: #fff;
-    font-weight: bold;
 }
 

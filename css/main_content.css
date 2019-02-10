@@ -1,0 +1,151 @@
+/*************************************
+  MAIN SECTION AND PRINCIPAL CONTENT
+***************************************/
+
+.inicio_content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inicio_main{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+
+
+
+.inicio_main p{
+    margin: 15px;
+    margin-top: 0;
+   
+  
+    font-size: 1.6em;
+ 
+    
+}
+
+.inicio_main img{
+    margin: 5px;
+    max-width: 100%;
+}
+
+/* NOS DEDICAMOS A */
+
+.dedicamos{
+    display: flex;
+    flex-direction: column;
+
+}
+.dedicamos h2{
+    text-align: center;
+    font-family: 'KozMin',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+ul.dedicar{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+ul.dedicar li{
+    margin: 5px;
+    text-align: center;
+    border: 2px solid #707070;
+    padding: 20px;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+/*************************************
+            SERVICIOS CONTENT
+***************************************/
+
+.servicios_content > h3{
+    text-align: center;
+}
+
+.servicios_container{
+    display: flex;
+    flex-direction: column;
+
+}
+.servicios_box{
+    margin: 20px;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #707070;;
+}
+
+.servicios_box h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+.servicios_box  p{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+.icons img{
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.icons img:first-child{
+    transform:rotateZ(-10deg) rotateY(180deg);
+    width: 200px;
+    margin: 0;
+    flex: 0 0 40%;
+}
+
+
+
+
+
+
+
+
+/*TEXT */
+.left_text{
+    margin: 20px;
+    border-left: 4px solid #BA8527;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.right_text{
+    margin: 20px;
+    padding-right: 10px;
+    text-align: right;
+    border-right: 4px solid #BA8527;
+    text-transform: uppercase;
+    
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
