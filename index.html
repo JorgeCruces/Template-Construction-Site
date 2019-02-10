@@ -35,8 +35,8 @@
                 </div>
                 <nav>
                     <ul class="navbar_ul">
-                       <li><a href="#">Inicio</a></li>
-                       <li><a href="#">Nuestros servicios</a></li>
+                       <li><a href="#inicio">Inicio</a></li>
+                       <li><a href="#servicios">Nuestros servicios</a></li>
                        <li><a href="#">Ayuda</a></li>
                        <li><a href="#">Galeria</a></li>
                        <li><a href="#">Contacto</a></li>
@@ -64,11 +64,11 @@
     </header><!-- Header -->
 
     <main> <!-- MAIN CONTENT-->
-        <section>
+        <section id="inicio">
             <div class="inicio_content">
                 <div class="inicio_main">
                     
-                        <h1 class="left_text">Inicio</h1>
+                        <h1 class="h1_text">Inicio</h1>
                         <p>Somos una empresa con basta experiencia en el campo de la construcción en general,
                             nuestra tarea es brindar una experiencia gratificante a nuestros clientes.
                             <span>Si desea calidad a un buen precio, no dude en contactarnos</span>
@@ -91,14 +91,14 @@
             </div><!-- INICIO CONTENT-->
         </section> <!--Inicio Section-->
 
-        <section>
+        <section id="servicios">
             <div class="servicios_content">
-                <h2 class="right_text">Nuestros servicios</h2>
+                <h2 class="h1_text h1_text_right">Nuestros servicios</h2>
                 <h3>Algunos de nuestros servicios son:</h3>
                 <div class="servicios_container">
                     <div class="servicios_box">
                         <div class="construccion">
-                            <h3>Construcción</h3>
+                            <h3 class="underline_center">Construcción</h3>
                             <div class="icons">
                                 <img src="./img/svg/hammer.svg" alt="hammer">
                                 <img src="./img/svg/transport.svg" alt="transport"> 
@@ -108,7 +108,7 @@
                     </div><!--Construccion BOX-->
                     <div class="servicios_box">
                         <div class="apoyo">
-                            <h3>Apoyo profesional</h3>
+                            <h3  class="underline_center" >Apoyo profesional</h3>
                             <div class="icon">
                               <img src="./img/svg/support.svg" alt="apoyo">
                             </div>
@@ -118,6 +118,28 @@
                 </div>
             </div> <!--Servicios content-->
         </section><!--Servicios Section-->
+
+        <section>
+            <div class="ayuda">
+                <div class="ayuda_text">
+                    <h3 class="h1_text">Ayuda</h3>
+                    <h2>¿Tienes alguna duda o sugerencia?</h2>
+                </div>
+                <div class="ayuda_content servicios_box">
+                     <h2  class="underline_center" >Envianos cualquier tipo de información aquí:
+                       </h2>
+                       <div class="ayuda_info" >
+                           <img src="./img/svg/contact.svg" alt="contact">
+                           <h2>Alex Patrick Rosas</h2>
+                            <p>+56(9) 57003391</p>
+                            <p>Construcciones.alexrosas@gmail.com</p>
+                       </div>
+
+                </div>
+               
+                 
+            </div>
+        </section> <!-- Ayuda Section-->
 
 
     </main> <!-- Main Content -->

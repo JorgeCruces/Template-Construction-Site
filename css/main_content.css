@@ -82,7 +82,7 @@ ul.dedicar li{
     border: 1px solid #707070;;
 }
 
-.servicios_box h3{
+.underline_center{
     text-align: center;
     text-decoration: underline;
     font-size: 2em;
@@ -127,7 +127,7 @@ ul.dedicar li{
 
 
 /*TEXT */
-.left_text{
+.h1_text{
     margin: 20px;
     border-left: 4px solid #BA8527;
     text-transform: uppercase;
@@ -137,15 +137,26 @@ ul.dedicar li{
 
 }
 
-.right_text{
-    margin: 20px;
+.h1_text_right{
+    border: 0;
+    padding: 0;
     padding-right: 10px;
     text-align: right;
     border-right: 4px solid #BA8527;
-    text-transform: uppercase;
-    
-    font-size: 2em;
-    font-weight: bold;
+  
 
+}
+
+
+/*************************************
+            AYUDA CONTENT
+***************************************/
+
+.ayuda h2, .ayuda p {
+    text-align: center;
+}
+.ayuda_text h2{
+    font-weight: lighter;
+    font-size: 2em;
 }
 
