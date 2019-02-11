@@ -160,3 +160,65 @@ ul.dedicar li{
     font-size: 2em;
 }
 
+.ayuda_info h2{
+    font-weight: lighter;
+}
+
+.ayuda_info p{
+    padding:10px;
+}
+
+
+.ayuda_info a{
+    margin: 0 auto;
+    color: #000;
+}
+
+/*************************************
+            FOOTER CONTENT
+***************************************/
+.pie_content{
+    background-color: #FFD9A7;
+}
+.pie_box{
+    margin: 10px;
+    padding: 10px;
+}
+
+.pie_box p{
+    margin: 1em;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: 'Simplex',Verdana, Geneva, Tahoma, sans-serif;
+}
+.block{
+    margin-top: 2rem;
+    padding: 20px;
+    text-align: center;
+    border: .7px dashed #707070;
+}
+
+.redes{
+    display: flex;
+    font-size: 2.5em;
+    flex-wrap: wrap
+    
+
+}
+.redes a{
+    color: #707070;
+    flex: 1 1 45%;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+.pie_derechos{
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+
