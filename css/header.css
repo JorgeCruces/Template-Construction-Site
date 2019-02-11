@@ -55,8 +55,6 @@ div.navbar{
     display: flex;
     flex-direction: column;
     background-color: #FFD9A7;
-   
-
     overflow: visible;
 }
 div.logo_nav{
@@ -72,9 +70,8 @@ div.logo_nav a{
     margin: 20px;
     flex: 0 0 50%;
 }
+
 .navbar_btn {
-    
-    
     flex: 0 1 50%;
     align-self: center;
     display: flex;
@@ -200,6 +197,78 @@ div.logo_nav a{
     width: 60px;
 }
 
+/*************************************
+        MEDIA QUERIE
+***************************************/
+@media only screen and (min-width:1024px){
+    .hero{
+        order: 1;
+    }
+
+   .presentation{
+       display: block
+       background-position: center;
+       height:75vh;
+       background-image: url(../img/minJPG/Background-min.jpg);
+   }
+   .presentation h1{
+       width: 50vw;
+       font-size: 2.6em;
+   }
+   .hello_world{
+      width: 50vw;
+   
+   }
+   .button{
+       width: 20vw;
+   }
+
+   .navbar{
+        order: 2;
+        height: 25vh;
+        flex-direction: row;
+        align-items: center;
+      
+     
+    }
+ 
+    #logo{
+        width: 250px;
+        margin-bottom: 30px;
+        margin-left: auto;
+     
+    
+    }
+
+    .navbar_btn{
+        display: none;
+    }
+    .navbar_ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        
+       
+    }
+    .navbar_ul li a{
+        font-size: .9em;
+
+    }
+
+    .navbar_ul li{
+        transition: transform .3s ease-in;
+    }
+
+    .navbar_ul li:hover{
+        transform: scale(1.1,1.1);
+    }
+
+   
+   
+    
+    
+
+}
 
 
 

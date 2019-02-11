@@ -219,6 +219,98 @@ ul.dedicar li{
     margin: 20px;
 }
 
+/*************************************
+        MEDIA QUERIES CONTENT
+***************************************/
+@media only screen and (min-width:768px){
+    
+    .inicio_content{
+        flex-direction: row;
+        margin: 20px;
+     
+    }
+    .inicio_main{
+        flex: 0 0 30%;
+        padding-bottom: 80px;
+    }
+    .dedicamos{
+        flex: 1 1 70%;
+        justify-content: center;
+        margin: 30px;
+    }
+    .servicios_container{
+        flex-direction: row;
+    }
+   .icon{
+       
+       width: 300px;
+       margin: 0 auto;
+   }
+   .servicios_box{
+       margin: 45px;
+   }
+   .servicios_content h3{
+       font-size: 2em;
+   }
+
+
+   .ayuda_text{
+       display: flex;
+       justify-content: space-between;
+   }
+   .ayuda_text h3{
+       flex: 0 0 30%;
+       
+   }
+   .ayuda_text h2{
+    flex: 1 0 40%;
+    align-items: center;
+    margin-top: 30px;
+  
+    }
+    .ayuda_info{
+        display: flex;
+        justify-content: center;
+        
+        align-items: center;
+    }
+    .ayuda_info img{
+      margin: 10px 0px;
+        width: 400px;
+        height: 500px;
+    }
+    .ayuda_info a{
+        height: 25%;
+        padding: 5px;
+        border: 0;
+        
+
+        font-size: 3em;
+  
+    }
+   
+    .ayuda_info  a img{
+        width: 100px;
+        height: 150px;
+        margin: 10px;
+    }
+    .info{
+        margin: 20px;
+        
+        margin-left: 200px;
+    }
+    .info h2{
+        font-size: 4em;
+    }
+    .pie_content{
+        display: flex;
+        flex-direction: row;
+    }
+    .pie_box{
+        flex: 0 1 50%;
+    }
+   
+}
 
 
 
