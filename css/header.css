@@ -4,28 +4,32 @@
     font-style: normal;
     font-weight: normal;
     src: local('Segoe UI'), url('segoeui.woff') format('woff');
+    unicode-range: U+0020—007F;
     }
 @font-face {
     font-family: 'Simplex';
     src: url(../fonts/Simplex.ttf);
     font-style: normal;
+    unicode-range: U+0020—007F;
 }
 
 @font-face{
     font-family: 'KozMin';
     src: url(../fonts/KozMinPr6N-Heavy.otf);
     font-style: normal;
+    unicode-range: U+0020—007F;
 }
 
 html {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+   
 }
 
 body{
@@ -173,6 +177,53 @@ div.logo_nav a{
    
 }
 
+
+/*************************************
+            FOOTER CONTENT
+***************************************/
+.pie_content{
+    background-color: #FFD9A7;
+}
+.pie_box{
+    margin: 10px;
+    padding: 10px;
+}
+
+.pie_box p{
+    margin: 1em;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: 'Simplex',Verdana, Geneva, Tahoma, sans-serif;
+}
+.block{
+    margin-top: 2rem;
+    padding: 20px;
+    text-align: center;
+    border: .7px dashed #707070;
+}
+
+.redes{
+    display: flex;
+    font-size: 2.5em;
+    flex-wrap: wrap
+    
+
+}
+.redes a{
+    color: #707070;
+    flex: 1 1 45%;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+.pie_derechos{
+    text-align: center;
+    margin: 20px;
+}
+
+
 .button{
 
     display: flex;
@@ -268,6 +319,16 @@ div.logo_nav a{
     
     
 
+}
+
+@media only screen and (min-width:768px){
+    .pie_content{
+        display: flex;
+        flex-direction: row;
+    }
+    .pie_box{
+        flex: 0 1 50%;
+    }
 }
 
 

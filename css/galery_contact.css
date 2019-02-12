@@ -1,0 +1,22 @@
+.gallery{
+    margin: 20px;
+   columns: 3 300px;
+   
+   column-gap: 40px;
+
+}
+.gallery > img{
+  height: 20em;
+   width: 100%;
+    border: 1px dashed #707070;
+   margin: 10px;}
+
+.titulo {
+   text-transform: uppercase;
+   font-size: 2.3em;
+   text-align: center;
+   padding: 20px;
+   text-decoration: underline;
+}
+
+
